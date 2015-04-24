@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Assets using asset_path internally need to know we're deploying to a sub directory
+  config.action_controller.relative_url_root = "/mitch"
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
