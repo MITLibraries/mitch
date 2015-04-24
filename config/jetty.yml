@@ -9,5 +9,5 @@ test:
   java_version: ">= 1.7"
 production:
   startup_wait: 15
-  jetty_port: 8983
+  jetty_port: 3005
   java_version: ">= 1.7"
